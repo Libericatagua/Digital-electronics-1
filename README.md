@@ -4,11 +4,13 @@
 
 **Source code**
 ```vhld
-impure function rand_real(min_val, max_val : real) return real is
-  variable r : real;
+architecture dataflow of gates is 
 begin
-  uniform(seed1, seed2, r);
-  return r * (max_val - min_val) + min_val;
-end function;
+   f_o <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+   fnand_o <=
+   --fand_o <= a_i and b_i;
+   --fxor_o <= a_i xor b_i;
+  
+end architecture dataflow;
 
 ```
