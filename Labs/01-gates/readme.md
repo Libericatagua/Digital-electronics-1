@@ -29,3 +29,22 @@ https://www.edaplayground.com/x/V5hu
 | 1 | 0 | 1 | 1 |
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
+
+### Overenie pravidiel
+```vhld
+
+architecture dataflow of gates is
+begin
+    f1_o  <= (x_i and y_i) or (x_i and z_i);
+    f2_o  <= x_i and (y_i or z_i);
+    f3_o  <= (x_i or y_i) and (x_i or z_i);
+    f4_o  <= x_i or (y_i and z_i);
+
+end architecture dataflow;
+
+```
+
+![Simulacia Overenie Morganovych zakonov](Images/Overenie_zakonov.png)
+
+### Link na EDAplayground
+https://www.edaplayground.com/x/8Q6q
