@@ -13,7 +13,7 @@ begin
 end architecture dataflow;
 ```
 
-![Simulacia Morganovych zakonov](Images/Morgan_zakony)
+![Simulacia Morganovych zakonov](Images/Morgan_zakony.png)
 
 ### Link na EDAplayground
 https://www.edaplayground.com/x/V5hu
