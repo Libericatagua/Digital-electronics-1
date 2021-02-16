@@ -43,7 +43,7 @@ begin
 end architecture dataflow;
 
 ```
-# Neviem prečo sa mi to kód neukazuje ako kód (zvýraznenie funkcii)
+## Neviem prečo sa mi ten kód neukazuje ako kód (zvýraznenie funkcii)
 ![Simulacia Overenie Morganovych zakonov](Images/Overenie_zakonov.png)
 
 ### Link na EDAplayground
