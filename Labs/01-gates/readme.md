@@ -13,8 +13,19 @@ begin
 end architecture dataflow;
 ```
 
-![Simulacia Morganovych zakonov](Images/Morgan_zakony)
+![Simulacia Morganovych zakonov](Images/Morgan_zakony.png)
 
 ### Link na EDAplayground
 https://www.edaplayground.com/x/V5hu
 
+
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
