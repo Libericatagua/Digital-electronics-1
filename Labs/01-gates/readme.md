@@ -3,7 +3,7 @@
 https://github.com/Libericatagua/Digital-electronics-1
 ### De Morganove zákony
 
-```vhld
+```vhdl
 architecture dataflow of gates is
 begin
     f_o      <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
@@ -31,7 +31,7 @@ https://www.edaplayground.com/x/V5hu
 | 1 | 1 | 1 | 0 |
 
 ### Overenie pravidiel
-```vhld
+```vhdl
 
 architecture dataflow of gates is
 begin
@@ -43,7 +43,6 @@ begin
 end architecture dataflow;
 
 ```
-## Neviem prečo sa mi ten kód neukazuje ako kód (zvýraznenie funkcii)
 ![Simulacia Overenie Morganovych zakonov](Images/Overenie_zakonov.png)
 
 ### Link na EDAplayground
