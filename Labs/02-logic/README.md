@@ -1,4 +1,4 @@
-##1 Tabulka
+## 1 Tabulka
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -19,14 +19,14 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-##2 Karnaughove mapy
+## 2 Karnaughove mapy
 ![Mapy](Images/maps.png)
 
 ### Link na EDAplayground
 https://www.edaplayground.com/x/P9Ux
 
-##3 4-bit
-### design
+## 3 4-bit
+### Design
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -60,7 +60,7 @@ begin
 -- WRITE "GREATER" AND "E
 ```
 
-### testbench
+### Testbench
 ```vhdl
 ------------------------------------------------------------------------
 -- Entity declaration for testbench
