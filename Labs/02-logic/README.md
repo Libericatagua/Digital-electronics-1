@@ -1,4 +1,4 @@
-## 1 Tabulka
+## Tabulka
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -19,13 +19,13 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-## 2 Karnaughove mapy
+## Karnaughove mapy
 ![Mapy](Images/maps.png)
 
-### Link na EDAplayground
+### Link na EDAplayground pre 2-bit
 https://www.edaplayground.com/x/P9Ux
 
-## 3 4-bit
+## 4-bit
 ### Design
 ```vhdl
 library ieee;
@@ -155,5 +155,5 @@ end architecture testbench;
 ### Zámerná chyba - report
 ![Mapy](Images/chyba.png)
 
-### Link na EDAplayground
+### Link na EDAplayground 4-bit
 https://www.edaplayground.com/x/DUYS
