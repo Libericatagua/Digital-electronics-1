@@ -18,3 +18,8 @@ Tabulka
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+![Mapy](Images/Screenshot (276).png)
+
+### Link na EDAplayground
+https://www.edaplayground.com/x/P9Ux
