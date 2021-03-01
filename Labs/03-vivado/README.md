@@ -1,4 +1,4 @@
-### pripojenia
+### prepojenia
 
 | **LED** | **Connection** | **Switch** | **Connection** | 
 | :-: | :-: | :-: | :-: |
@@ -123,5 +123,26 @@ begin
 
 end architecture testbench;
 ```
+### simulácia
 ![Simulácia](Images/xx.png)
+
+## Tutoriály
+![Simulácia](Images/1.jpg)
+![Simulácia](Images/2.jpg)
+![Simulácia](Images/3.jpg)
+![Simulácia](Images/4.jpg)
+![Simulácia](Images/5.jpg)
+![Simulácia](Images/6.png)
+![Simulácia](Images/7.jpg)
+![Simulácia](Images/8.jpg)
+![Simulácia](Images/9.jpg)
+![Simulácia](Images/10.jpg)
+![Simulácia](Images/11.jpg)
+![Simulácia](Images/12.jpg)
+![Simulácia](Images/13.jpg)
+![Simulácia](Images/14.jpg)
+![Simulácia](Images/15.jpg)
+![Simulácia](Images/16.jpg)
+![Simulácia](Images/17.jpg)
+![Simulácia](Images/18.jpg)
 
