@@ -116,7 +116,7 @@ hex2seg : entity work.hex_7seg
 | d | 1101 | 0 | 1 | 1 | 0 |
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
-### code pre ledky
+### code for leds
 ```vhdl
  LED(3 downto 0) <= SW;
    LED(4)  <= '1' when (SW = "0000") else '0';
