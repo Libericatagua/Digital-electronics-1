@@ -102,4 +102,5 @@ p_reset_gen : process
             seg_o(0) => CG
         );
 ```
-
+### 16 bit counter 
+![Bcounter](Images/3.png)
