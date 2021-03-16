@@ -103,4 +103,4 @@ p_reset_gen : process
         );
 ```
 ### 16 bit counter 
-![Bcounter](Images/3.png)
+![Bcounter](Images/3.jpg)
