@@ -185,6 +185,7 @@ begin
 end architecture Behavioral;
 
 ```
-## 3 schéma
-
-![Schema](Images/5.jpg)
+## 3 
+###schéma
+### kvalita fotky nieje najlepšia (bolo už zlé svetlo)
+![Schema](Images/6.jpg)
