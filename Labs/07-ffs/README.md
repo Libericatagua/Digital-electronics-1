@@ -4,28 +4,28 @@
 ### tabulky
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | Change |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | No change |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Change |
+| - | 0 | 0 | 0 | No change |
+| - | 0 | 1 | 0 | Change |
+| - | 1 | 0 | 1 | No change |
+| - | 1 | 1 | 1 | Change |
 
 | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle |
+| - | 0 | 0 | 0 | 0 | No change |
+| - | 0 | 0 | 1 | 1 | No change |
+| - | 0 | 1 | 0 | 0 | Reset |
+| - | 0 | 1 | 1 | 0 | Reset |
+| - | 1 | 0 | 0 | 1 | Set |
+| - | 1 | 0 | 1 | 1 | Set |
+| - | 1 | 1 | 0 | 1 | Toggle |
+| - | 1 | 1 | 1 | 0 | Toggle |
 
 | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Toggle |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Toggle |
+| - | 0 | 0 | 0 | No change |
+| - | 0 | 1 | 1 | No change |
+| - | 1 | 0 | 1 | Toggle |
+| - | 1 | 1 | 0 | Toggle |
 
 ## 2
 ### process p_d_latch
@@ -275,7 +275,7 @@ p_clk_gen : process
     end process p_stimulus;
 ```
 ### simulácia
-![Schema](Images/5.jpg)
+![Schema](Images/5.png)
 
 ### tb_jk_ff_rst clock reset stimulus
 ```vhdl
@@ -343,7 +343,7 @@ p_clk_gen : process
     end process p_stimulus;
 ```
 ### simulácia
-![Schema](Images/6.jpg)
+![Schema](Images/6.png)
 ### p_d_ff_rst
 ```vhdl
 p_clk_gen : process
@@ -410,7 +410,7 @@ end process p_clk_gen;
     end process p_stimulus;
 ``` 
 ### simulacia
-![Schema](Images/50.jpg)
+![Schema](Images/50.png)
 ### tb_t_ff_rst
 ```vhdl
 p_clk_gen : process
@@ -477,7 +477,7 @@ p_stimulus : process
         wait;
     end process p_stimulus;
 ```
-![Schema](Images/10.jpg)
+![Schema](Images/10.png)
 ## 4
 
 ### schéma
