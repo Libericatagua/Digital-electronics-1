@@ -121,7 +121,17 @@ end architecture Behavioral;
 ### diagram
 ![diagram](Images/4.jpg)
 ## 3
-### nevedel som ako spraviť diagram zo 4 "state-ov" a pepísať to do vhdl kódu tak prikladám len tú tabulku
-![tab](Images/5.png)
+### tabulka
+| **Current state** | No cars <br />west = 0, east = 0 | Cars from west<br />west = 1, east = 0 | Cars from east<br />west = 0, east = 1 | Cars from both<br />west = 1, east = 1 |
+| :-- | :-: | :-: | :-: | :-: |
+| **`STOP1`**  | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
+| **`WEST_GO`** | `WEST_WAIT` | `WEST_GO` | `WEST_WAIT` | `WEST_GO` |
+| **`WEST_WAIT`** | `STOP2` | `STOP2` | `STOP2` | `STOP2` |
+| **`STOP2`**  | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| **`SOUTH_GO`** | `SOUTH_WAIT` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_GO` |
+| **`SOUTH_WAIT`** | `STOP1` | `STOP1` | `STOP1` | `STOP1` |
+### diagram
+![dia](Images/6.jpg)
+### vhdl kód som nezvládol 
 
 
