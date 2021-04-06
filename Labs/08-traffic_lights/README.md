@@ -5,7 +5,7 @@
 | **Clock** | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
 | **State** | A | A | B | C | C | D | A | B | C | D | B | B | B | C | D | B |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
-### schéma a tabulka
+### schéma
 ![Schema](Images/1.png)
 ### tabulka
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
@@ -118,7 +118,7 @@ end architecture Behavioral;
 ```
 ### simulácia
 ![Simulacia](Images/3.png)
-### 
+### diagram
 ![diagram](Images/4.jpg)
 ## 3
 ### nevedel som ako spraviť diagram zo 4 "state-ov" a pepísať to do vhdl kódu tak prikladám len tú tabulku
