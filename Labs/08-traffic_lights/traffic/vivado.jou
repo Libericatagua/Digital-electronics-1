@@ -12,3 +12,7 @@
 start_gui
 open_project C:/Users/marek/Desktop/VUT/Stvrty_semester/BPC-DE1/Cvika/Ulozne_miesto/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
